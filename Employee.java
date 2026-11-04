@@ -10,10 +10,20 @@ public class Employee extends Person{
 
 	}
 
-	public int getID()
-	{
+	public int getID() {
 		return empID;
+	}
 
+	public double getSalary() {
+		return baseSalary;
+	}
+
+	public void setID(int id) {
+		empID = id;
+	}
+
+	public void setSalary(double sal) {
+		baseSalary = sal;
 	}
 
 }
