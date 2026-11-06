@@ -1,14 +1,14 @@
 import java.util.*;
 public class Personnel {
 
-	private ArrayList<Person> personList;
+	private ArrayList<PersonObject> personList;
 
 	
 	public Personnel() {
 		personList = new ArrayList<>();
 	}
 	
-	public void addPersonnel(Person p)
+	public void addPersonnel(PersonObject p)
 	{
 		personList.add(p);
 	}
@@ -17,11 +17,11 @@ public class Personnel {
 		return personList.size();
 	}
 
-    public ArrayList<Person> getPersonList() {
+    public ArrayList<PersonObject> getPersonList() {
         return personList;
     }
 
-    public void setPersonList(ArrayList<Person> personList) {
+    public void setPersonList(ArrayList<PersonObject> personList) {
         this.personList = personList;
     }
 
